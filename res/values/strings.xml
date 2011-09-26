@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">"Welcome to Sudoku"</string>
+    <string name="app_name">"Naive Sudoku"</string>
+</resources>
+

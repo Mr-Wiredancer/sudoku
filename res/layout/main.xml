@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#008888"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    android:textSize="50dip"
+    android:textColor="#00ff00"
+    />
+<Button
+    android:text="New Game"
+    android:layout_width="fill_parent"
+    android:textColor="@color/red"
+    android:layout_height="0dip"
+    android:layout_weight="20"
+    android:layout_marginTop="50dip"
+    android:layout_marginLeft="20dip"
+    android:layout_marginRight="20dip"
+    />
+ <Button
+    android:text="Continue Game"
+    android:textColor="@color/red"
+    android:layout_width="fill_parent"
+    android:layout_height="0dip"
+    android:layout_weight="20"
+    android:layout_marginTop="20dip"
+    android:layout_marginLeft="20dip"
+    android:layout_marginRight="20dip"
+    /> 
+ <Button
+    android:text="Difficulty"
+    android:textColor="@color/red"
+    android:layout_width="fill_parent"
+    android:layout_height="0dip"
+    android:layout_weight="20"
+    android:layout_marginTop="20dip"
+    android:layout_marginLeft="20dip"
+    android:layout_marginRight="20dip"
+    />
+ <Button
+    android:text="Records"
+    android:textColor="@color/red"
+    android:layout_width="fill_parent"
+    android:layout_height="0dip"
+    android:layout_weight="20"
+    android:layout_marginTop="20dip"
+    android:layout_marginLeft="20dip"
+    android:layout_marginRight="20dip"
+    /> 
+ <Button
+    android:text="Quit"
+    android:textColor="@color/red"
+    android:layout_width="fill_parent"
+    android:layout_height="0dip"
+    android:layout_weight="20"
+    android:layout_marginTop="20dip"
+    android:layout_marginLeft="20dip"
+    android:layout_marginRight="20dip"
+    android:layout_marginBottom="50dip"
+    /> 
+</LinearLayout>
