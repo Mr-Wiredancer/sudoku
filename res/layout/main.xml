@@ -6,6 +6,7 @@
     android:background="#008888"
     >
 <TextView  
+   android:orientation="vertical"
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
     android:text="@string/hello"
@@ -13,6 +14,8 @@
     android:textColor="#00ff00"
     />
 <Button
+android:orientation="vertical"
+    android:id="@+id/new_button"
     android:text="New Game"
     android:layout_width="fill_parent"
     android:textColor="@color/red"
@@ -23,6 +26,8 @@
     android:layout_marginRight="20dip"
     />
  <Button
+ android:orientation="vertical"
+    android:id="@+id/continue_button"
     android:text="Continue Game"
     android:textColor="@color/red"
     android:layout_width="fill_parent"
@@ -33,6 +38,8 @@
     android:layout_marginRight="20dip"
     /> 
  <Button
+ android:orientation="vertical"
+    android:id="@+id/difficulty_button"
     android:text="Difficulty"
     android:textColor="@color/red"
     android:layout_width="fill_parent"
@@ -43,6 +50,8 @@
     android:layout_marginRight="20dip"
     />
  <Button
+ android:orientation="vertical"
+    android:id="@+id/records_button"
     android:text="Records"
     android:textColor="@color/red"
     android:layout_width="fill_parent"
@@ -53,6 +62,8 @@
     android:layout_marginRight="20dip"
     /> 
  <Button
+ android:orientation="vertical"
+    android:id="@+id/quit_button"
     android:text="Quit"
     android:textColor="@color/red"
     android:layout_width="fill_parent"
