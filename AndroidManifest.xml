@@ -13,6 +13,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Game"
+           android:label="New Game">
+        </activity>
+        
 
     </application>
 </manifest>
