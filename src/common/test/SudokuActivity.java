@@ -9,7 +9,7 @@ public class SudokuActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.board);
     }
     
     /*When "new game is pressed, this function should be called"*/

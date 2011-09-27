@@ -2,5 +2,8 @@
 <resources>
     <string name="hello">"Welcome to Sudoku"</string>
     <string name="app_name">"Naive Sudoku"</string>
+    <string name="game_title">Game</string> 
+    <string name="no_moves_label">No moves</string> 
+    <string name="keypad_title">Keypad</string>
 </resources>
 
